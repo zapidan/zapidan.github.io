@@ -26,6 +26,9 @@
 			setTimeout(function() {
 				$body.removeClass('is-preload');
 			}, 100);
+
+			var years = new Date().getFullYear() - 2012
+			$('#years-between').html(years)
 		});
 
 	// Touch mode.
